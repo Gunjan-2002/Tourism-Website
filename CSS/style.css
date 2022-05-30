@@ -1,0 +1,241 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+
+.custom-navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: flex-start;
+}
+
+.navbar-brand
+{
+    display: inline-block;
+}
+
+.header .navbar-brand
+{
+    margin-left: 30px;
+    padding: 0px;
+}
+
+.header .navbar-brand img
+{
+    width: 100px;
+}
+
+.collapse-menu
+{
+    display: flex;
+    padding: 0px;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(13, 236, 17) ;
+}
+
+.header .navbar-menu
+{
+    display: flex;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.header .navbar-menu .nav-item
+{
+    list-style: none;
+}
+
+.header .navbar-menu .nav-item .nav-link
+{
+    padding: 20px 28px 17px 21px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;   
+    color: rgb(0, 0, 0);
+    line-height: 3px;
+    text-indent: 5px;
+    background-color: rgb(119, 237, 112);
+    border-radius: 10px;
+}
+
+.header .nav-item .nav-link:hover
+{
+       color: rgb(0, 0, 0);
+       background-color: rgb(255, 255, 255);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    margin-left: 11px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.banner-sec
+{
+    position: relative;
+    display: block;
+    width: 102%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+.banner-sec .video-container
+{
+    display: block;
+    width: 100%;
+    height: 110%;
+}
+
+.banner-sec .tabs
+{
+    z-index: 999; 
+    width: 45%;
+    position: absolute;
+    left: -68px;
+    bottom: 0;
+    border: none;
+    margin-left: 80px;
+    display: flex;
+    flex-flow: initial;
+    padding-bottom: 20px;
+} 
+
+
+ .banner-sec .tabs .tab-link
+{
+        text-transform: uppercase;
+        font-family: 'eb_garamondmedium';
+        letter-spacing: 3px;
+        padding: 22px 20px;
+        line-height: 1;
+        border: none;
+        font-size: 18px;
+        margin: 0px;
+        display: inline-block;
+        position: relative;
+        width: 188px;
+        height: 46px;
+        overflow: hidden;
+        border-radius: 0;
+        
+} 
+
+.banner-sec .tabs .tab-link span
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    left: 0;
+    top: 0px;
+    z-index: 999;
+    margin: auto;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+} 
+
+.banner-sec .tabs .tab-link span:hover
+{
+    color: #000000;
+        transition: .5s;
+        background-color: transparent;
+    background-color: rgb(113, 251, 103);
+} 
+
+.content
+{
+    position: absolute;
+    top: 887px;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.content .item
+{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.item .destination
+{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    color: white;
+}
+
+.item .culture
+{
+    position: absolute;
+    top: 50px;
+    right: 620px;
+    color: white;
+}
+
+.item .travel
+{
+    position: absolute;
+    top: 412px;
+    right: 538px;
+    color: white;
+}
+
+.content .item img
+{
+    width: 500px;
+}
+
+.content #img-2
+{
+    position: absolute;
+    top: -400px;
+    right: 20px;
+    width: 400px;
+    background-color: rgb(172, 222, 128);
+    border-radius: 7px;
+}
+
+.content #img-2 h1
+{
+    text-align: center;
+    margin: auto;
+    margin-left: 4px;
+}
+
+.content #img-2 p
+{
+    margin-left: 29px;
+    text-align:start ;
+}
