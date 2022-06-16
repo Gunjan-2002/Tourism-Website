@@ -1,3 +1,10 @@
+body
+{
+    background-color: rgb(255, 206, 143);
+    margin: 0px;
+    padding: 0px;
+}
+
 *
 {
     box-sizing: border-box;
@@ -93,7 +100,7 @@ li
 
 .banner-sec
 {
-    position: relative;
+    /* position: relative; */
     display: block;
     width: 102%;
     height: 100vh;
@@ -101,14 +108,16 @@ li
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: absolute;
-    top: -8px;
-    left: -8px;
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    /* top: -8px; */
+    /* left: -8px; */
 }
 
 .banner-sec .video-container
 {
-    display: block;
+    /* display: block; */
     width: 100%;
     height: 110%;
 }
@@ -171,71 +180,84 @@ li
 } 
 
 .content
-{
-    position: absolute;
-    top: 887px;
+{ 
+    /* position: absolute;
+    top: 887px; */
     display: flex;
-    z-index: 999;
+    /* z-index: 999; */
     align-items: center;
     justify-content: center;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    margin-top: 20px;
 }
 
 .content .item
 {
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 50px;
+    text-align: center;
 }
 
-.item .destination
+/* .item .destination
 {
     position: absolute;
     top: 10px;
     left: 250px;
     color: white;
-}
+} */
 
-.item .culture
+/* .item .culture
 {
     position: absolute;
     top: 50px;
     right: 620px;
     color: white;
-}
+} */
 
-.item .travel
+/* .item .travel
 {
     position: absolute;
     top: 412px;
     right: 538px;
     color: white;
-}
+} */
 
 .content .item img
 {
     width: 500px;
 }
 
-.content #img-2
+.destination
 {
-    position: absolute;
-    top: -400px;
-    right: 20px;
-    width: 400px;
-    background-color: rgb(172, 222, 128);
-    border-radius: 7px;
+    background-color: rgb(240, 189, 189);
+    /* display: block; */
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
 }
 
-.content #img-2 h1
+.dest-video
+{
+    width: 90%;
+}
+
+.dest1
 {
     text-align: center;
-    margin: auto;
-    margin-left: 4px;
 }
 
-.content #img-2 p
+.dest-h1
 {
-    margin-left: 29px;
-    text-align:start ;
+    color: white;
 }
+
+/* .desti-container
+{
+    display: block;
+    width: 100%;
+    height: 30px;
+} */
